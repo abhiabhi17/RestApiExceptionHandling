@@ -27,7 +27,7 @@ import io.swagger.annotations.ApiOperation;
 @RequestMapping("/api/employees")
 @CrossOrigin(origins="*")
 public class EmployeeController {
-	
+	//Autwired-
 	@Autowired
 	private EmployeeServiceImpl empService;
 
